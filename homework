@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Concert</title>
+  </head>
+  <style>
+h1 {text-align: center;}
+
+</style>
+  <link rel="stylesheet" href="style.css">
+  <div class="main">
+  <body>
+<h1><i>Kid Cudi - Man on the Moon III: The Chosen</i></h1>
+
+<h2>Naujo albumo pristatymas Vilniuje.
+<br>Data: Lapkričio 23 dieną, 2022 m.</h2>
+
+<div class="video-1">
+    <video width="400" autoplay controls>
+    <source src="concert.mp4" type="video/mp4">
+</video>
+</div>
+<div class="video-2">
+    <video width="400" autoplay muted loop>
+    <source src="concert1.mp4" type="video/mp4">
+</video>
+</div>
+<div class="video-3">
+    <video width="400" autoplay muted loop>
+    <source src="concert2.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="form">
+<h5>Registracijos forma</h5>
+<form action="#" method="get">
+  <label for="vardas"><b>Vardas</b></label>
+  <input id="vardas" name="vardas" required><br>
+
+  <label for="pavarde"><b>Pavardė</b></label>
+  <input type="text" name="pavarde"required><br>
+
+  <label for="email"><b>Paštas</b></label>
+  <input type="email" name="email" required><br>
+</div>
+
+<h3>Koncerto vieta: Lukiškių kalėjimas 2.0</h3>
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.995565367938!2d25.265063916525634!3d54.69210568028313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd958bc2964b75%3A0x9d37b153eac69c1a!2zTHVracWha2nFsyBrYWzEl2ppbWFzIDIuMA!5e0!3m2!1sen!2slt!4v1638302251139!5m2!1sen!2slt"
+    width="375"
+    height="275"
+    style="border:0;"
+    loading="lazy">
+  </iframe>
+</div>
+
+<div class="spotify">
+<iframe src="https://open.spotify.com/embed/track/2yg7MXp8nSPaf61HVkhEr3?utm_source=generator"
+ width="80%"
+ height="80"
+ frameBorder="0"
+ allowfullscreen=""
+ allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</div>
+
+<div class="audio1">
+<audio controls autoplay muted>
+  <source src="audio1.mp3" type="audio/mpeg">
+</audio>
+</div>
+<div class="audio2">
+<audio controls autoplay muted>
+  <source src="audio2.mp3" type="audio/mpeg">
+</audio>
+</div>
+<!-- <div class="audio3">
+<audio controls autoplay muted>
+  <source src="audio3.mp3" type="audio/mpeg">
+</audio>
+</div> -->
+
+
+
+
+
+  </body>
+ </div>
+</html>
+
+* {
+  margin: 0;
+  padding: 0:
+}
+
+.WebContainer{
+  width: 100%;
+  height: auto;}
+.articles{
+  width:90%;
+  height: auto;
+  margin: auto;}
+
+html {
+  height: 100%;}
+
+body {
+  background-color: #8b55a6;
+  background-image: url(kidcudi.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;}
+
+h1 {
+  font-size: 58px;
+  position: absolute;
+  top: 0;
+  right: 750px;
+  color: #fff;}
+
+h2 {
+  font-size: 48px;
+  position: absolute;
+  top: 70px;
+  right: 900px;
+  color: #fff;}
+
+h3 {
+  font-size: 24px;
+  position: relative;
+  top: 580px;
+  left: 2100px;
+  color: #fff;}
+
+.map {
+  position: relative;
+  top: 580px;
+  left: 2100px;}
+
+.audio1 {
+  position: relative;
+  bottom: 280px;}
+
+.audio2 {
+  position: relative;
+  bottom: 400px;}
+
+.form {
+  position: relative;
+  bottom:-200px;
+  left: 1120px;
+  font-size: 50px;
+  color: #fff;}
+
+.video-1 {
+  display: block;
+  left:5px;
+  position: absolute;
+  bottom: 1040px;}
+
+.video-2 {
+  display: block;
+  left:2100px;
+  position: absolute;
+  bottom: 1000px;}
+
+.video-3 {
+  display: block;
+  left:2100px;
+  position: absolute;
+  bottom: 780px;}
+
+.main {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;}
