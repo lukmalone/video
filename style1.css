@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: 203, 241, 245;
+  background: #cae6e4;
   color:black;
   font-family:  'Source Sans Pro', sans-serif;
   font-size: 35px;
@@ -27,7 +27,7 @@ div.text1{
   margin: 35px auto;
   padding: 10px;
   border: 5px solid #22577E;
-  background:227, 253, 253;
+  background: #e3fdfd;
 }
 
 div.text2{
@@ -37,7 +37,7 @@ div.text2{
   margin: 35px auto;
   padding: 10px;
   border: 5px solid #22577E;
-  background: 227, 253, 253;
+  background: #e3fdfd;
 }
 
 .bg {
