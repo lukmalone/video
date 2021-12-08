@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+table {
+  border-collapse: collapse;
+}
+table:nth-of-type(1){
+  font-family: Lora;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 0;
+}
+table:nth-of-type(1) th, td{
+  border: 1px inset gold;
+  padding: 20px 60px;
+  border-color: gold;
+}
+table:nth-of-type(1) td {
+  background: #3b2c6b;
+  color: white;
+}
+table:nth-of-type(1) {
+  border: 2px solid Gold;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: left;
+}
+table:nth-of-type(1) th:nth-of-type(odd) {
+  background: #fec107;
+}
+table:nth-of-type(1) th:nth-of-type(even) {
+  background: #e5ae2f;
+}
+table:nth-of-type(2) {
+  font-family: Heebo;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 20px 20px;
+  text-align: left;
+  background: #af5593;
+  color: white;
+  border: 10px solid white;
+  border-width: 20px;
+  margin: 20px 0;
+}
+table:nth-of-type(2) th {
+  background: #86006f;
+  color: white;
+}
+table:nth-of-type(2) th, td{
+  border: 1px inset white;
+  padding: 20px 60px;
+}
+table:nth-of-type(2) tr:nth-child(even){
+  background: #f37ecf
+}
+table:nth-of-type(3) {
+  border-collapse:collapse;
+  border: 2px solid black;
+}
+
+table:nth-of-type(3) td{
+  border:1px solid black;
+
+}
