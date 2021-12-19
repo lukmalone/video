@@ -8,6 +8,7 @@
 
 body {
   background: linear-gradient(to right, #9073c3, #5875b7);
+  margin: 0 auto;
 }
 
 .container {
