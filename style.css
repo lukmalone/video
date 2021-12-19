@@ -24,6 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Lato', sans-serif;
+  background: linear-gradient(to right, #9073c3, #5875b7);
 }
 
 .box {
