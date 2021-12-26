@@ -24,7 +24,7 @@ body {
 
  .parent {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-flow: row wrap;
   gap: 20px 20px;
 }
