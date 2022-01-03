@@ -1,0 +1,157 @@
+/* Media */
+@media (max-width: 900px) {
+main {
+  flex-direction: column;
+  flex: 100%;
+  /* max-width: 300px; */
+
+    header {
+      flex-direction: column;
+    }
+
+      h1 {
+        width: 100%;
+        font-size: 30px;
+      }
+
+        form {
+          // height: 250px;
+          flex-direction: column;
+          justify-content: center;
+          margin-top: 30px;
+        }
+
+
+  .section-2 {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .section-3 {
+    flex-direction: column;
+    height: 700px;
+    /* padding: 0 5% 0 5%; */
+
+    .section-3:nth-of-type(1) {
+      padding: 0 20% 0 20%;
+    }
+
+      .section-3, .lg-box:nth-of-type(1) {
+        display: flex;
+        order: 2;
+      }
+  }
+
+  .section-4 {
+    flex-direction: column;
+    Height: 700px;
+  }
+    .section-4, .lg-box:nth-of-type(4) {
+      display: flex;
+      order: 3;
+    }
+
+      #.section-4, img {
+        order: 1;
+      }
+
+        .section-4:nth-of-type(1) {
+          padding: 0 20% 0 20%;
+        }
+  }
+
+  .section-5 {
+    flex-direction: column;
+    Height: 700px;
+
+    .section-5:nth-of-type(1) {
+      padding: 0 20% 0 20%;
+    }
+  }
+
+  .lg-box:nth-of-type(2) {
+    order: 1;
+  }
+
+  .lg-box p {
+    width: 100%;
+  }
+
+  .sm-box {
+    height: 220px;
+    margin: 0;
+
+    .sm-box img {
+      width: 80%;
+      height: 80px;
+      padding: 0 10% 0 10%;
+    }
+
+      .sm-box p {
+        padding: 0 20% 0 20%;
+      }
+  }
+
+  .review {
+    flex-direction: column;
+
+    .review p {
+     /* width: 100%; */
+     align-items: center;
+   }
+  }
+
+  .person1 {
+    display: flex;
+    order: 2;
+  }
+
+  h6 {
+    width: 100%;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .sing-up-bottom {
+    flex-direction: column;
+  }
+
+  footer input {
+    /* flex: 1; */
+    height: 50px;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    form, input {
+      height: 40px;
+      margin: 0px;
+      margin-top: 20px;
+      padding: 0 10% 0 10%;
+    }
+  }
+
+  .bottom-menu {
+    flex-direction: column;
+
+    .bottom-menu nav {
+      height: 100%;
+      text-align: center;
+      word-wrap: break-word;
+    }
+  }
+
+  .about {
+    text-align: center;
+
+    .about footer {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+
+  .social {
+    justify-content: center;
+  }
+}

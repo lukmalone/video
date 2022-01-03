@@ -1,0 +1,49 @@
+/* Reviews */
+.review {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+
+  h4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    Height: 80px;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 80px;
+  }
+}
+
+.person1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+  .person1 img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+  }
+
+  .person1 h5 {
+    margin-top: 20px;
+      font-size: 20px;
+  }
+
+  .person1 p {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 20px;
+    color: grey;
+    line-height: 1.6;
+    width: 80%;
+  }
+}
