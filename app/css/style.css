@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+    background: white !important;
+  }
+
 body {
   background-color: rgb(232 230 227) !important;
   font-family: 'Lato', sans-serif;
